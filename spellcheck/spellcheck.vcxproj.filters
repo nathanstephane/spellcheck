@@ -17,10 +17,19 @@
   <ItemGroup>
     <Text Include="words.txt" />
     <Text Include="test.txt" />
+    <Text Include="notes.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="spellcheck.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dictionary.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

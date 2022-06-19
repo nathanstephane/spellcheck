@@ -139,11 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="notes.txt" />
     <Text Include="test.txt" />
     <Text Include="words.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dictionary.c" />
     <ClCompile Include="spellcheck.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dictionary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
